@@ -1,4 +1,4 @@
 language: csharp
 solution: installer_custom_action.sln
 script:
-- devenv installer_custom_action.sln /rebuild Debug
+- MSBuild.exe ConsoleApplication1.sln /p:Configuration=Debug /p:Platform="Any CPU"
