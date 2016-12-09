@@ -1,0 +1,3 @@
+language: csharp
+solution: installer_custom_action.sln
+script: ./configure && make
