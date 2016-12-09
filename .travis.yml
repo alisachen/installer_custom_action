@@ -1,4 +1,2 @@
 language: csharp
 solution: ConsoleApplication1.sln
-script:
-- MSBuild.exe ConsoleApplication1.sln /p:Configuration=Debug /p:Platform="Any CPU"
